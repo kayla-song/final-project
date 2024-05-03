@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import ConcertList from './ConcertList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </header> */}
+      <div className="Maggie">
+          <h2>Maggie Rogers Upcoming Concerts</h2>
+          <p>Check out one of the Evergreens' favorite artists to cover!</p>
+          <ConcertList/>
+      </div>
+</div>
   );
+
+  
 }
 
 export default App;
+
+
+
+
+

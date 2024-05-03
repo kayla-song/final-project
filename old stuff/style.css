@@ -1,0 +1,90 @@
+#heading {
+    font-family: "dm serif display", serif;
+    text-align: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#heading p {
+    margin-top: -10px;
+    font-size: medium;
+    margin-bottom: 5px;
+}
+#e {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#navbar {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: "dm serif display", serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#navbar a {
+   color: rgb(0, 45, 0);
+   text-decoration: none;
+   text-shadow: 0px 0px 10px #FAFAFA;
+}
+#navbar a:hover {
+    color: #FAFAFA;
+    text-shadow: 0px 0px 10px rgb(0, 45, 0);
+}
+
+
+
+
+
+
+
+body {
+    font-family: "dm serif display", serif;
+    background-color:rgb(198, 228, 178);
+}
+
+#group-pic {
+    height: auto;
+    min-width: 350px;
+    max-width: 600px;
+    width: 90%;
+
+}
+#front {
+    display: flex;
+    justify-content: center;
+}
+
+#front-bio {
+    width: 75%;
+    margin-left: 12.5%;
+    justify-self: center;
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+footer img {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer div:hover {
+    filter: invert(90%);
+}
